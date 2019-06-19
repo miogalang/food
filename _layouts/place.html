@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<header class="intro place-header">
+  <h1>{{ page.name }}</h1>
+  <h2>{{ page.country }}</h2>
+</header>
+
+<div class="place-body">
+  {% assign restaurants = site.restaurants | where: "place-id", page.place-id %}
+
+  {% for restaurant in restaurants %}
+    <li>{{ restaurant.name }}</li>
+  {% endfor %}
+</div>

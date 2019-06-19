@@ -1,1 +1,26 @@
+title: Mio's food picks
+author: Mio Galang
+email: mio@galang.co
+description: > # this means to ignore newlines until "baseurl:"
+  This is the best site ever, in the history of the world
+
+# social links
+github_username: miogalang
+
+exclude:
+  - README.md
+
+collections:
+  places:
+    output: true
+    permalink: /:name
+  restaurants:
+    output: false
+
+defaults:
+  - scope:
+      type: places
+    values:
+      layout: place
+
 theme: jekyll-theme-midnight
