@@ -8,7 +8,7 @@ github_username: miogalang
 email: miguelgalang@gmail.com
 
 description: >
-  This is the Mio Galang's list of places he likes to eat at 
+  This is the Mio Galang's list of places he likes to eat at
 
 # social links
 github_username: miogalang
@@ -28,6 +28,6 @@ defaults:
      path: "_places"
      type: places
    values:
-     layout: page
+     layout: place
 
 remote_theme: "mmistakes/jekyll-theme-basically-basic"

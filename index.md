@@ -9,4 +9,4 @@ permalink: /
 collection: places
 ---
 
-Hello world!
+This is where you should eat....

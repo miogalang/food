@@ -1,16 +1,33 @@
 ---
-layout: default
+layout: page
 ---
+{% assign restaurants = site.restaurants | where: "place-id", page.place-id %}
 
-<header class="intro place-header">
-  <h1>{{ page.name }}</h1>
-  <h2>{{ page.country }}</h2>
-</header>
-
-<div class="place-body">
-  {% assign restaurants = site.restaurants | where: "place-id", page.place-id %}
-
-  {% for restaurant in restaurants %}
-    <li>{{ restaurant.name }}</li>
-  {% endfor %}
-</div>
+{% for restaurant in restaurants %}
+  {% if restaurant.name %}
+    <h3>{{ restaurant.name }}</h3>
+      <ul>
+        {% if restaurant.description %}
+          <li> <b>Description</b>: {{restaurant.description}} </li>
+        {% endif %}
+        {% if restaurant.what-to-order %}
+          <li> <b>What to order</b>:
+            <ul>
+              {% for order in restaurant.what-to-order %}
+                <li> {{ order }}
+              {% endfor %}
+            </ul>
+          </li>
+        {% endif %}
+        {% if restaurant.location %}
+          <li> <b>Location</b>: <a href={{restaurant.location}} target=_blank>{{restaurant.location}}</a> </li>
+        {% endif %}
+        {% if restaurant.notes %}
+          <li> <b>Notes</b>: {{restaurant.notes}} </li>
+        {% endif %}
+        {% if restaurant.photos %}
+          <li> <b>Photos</b>: <a href={{restaurant.photos}} target=_blank>{{restaurant.photos}}</a> </li>
+        {% endif %}
+      </ul>
+  {% endif %}
+{% endfor %}

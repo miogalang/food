@@ -4,8 +4,9 @@ place-id: osaka
 title: ichiran ramen
 name: Ichiran Ramen
 description: Tonkotsu style Ramen
-what-to-order: Ichiran ramen
+what-to-order:
+  - Tonkotsu Ramen - Special
 location: https://goo.gl/maps/dqb2qzw6scK2
-notes: Lot's of Branches
-pictures: null
+notes: Lots of Branches
+photos: null
 ---
