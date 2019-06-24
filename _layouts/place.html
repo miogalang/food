@@ -1,11 +1,11 @@
 ---
 layout: page
 ---
-{% assign restaurants = site.restaurants | where: "place-id", contains page.place-id %}
+{% assign restaurants = site.restaurants | where: "place-ids", contains page.place-id %}
 
 {% for restaurant in restaurants %}
-  {% if restaurant.name %}
-    <h3>{{ restaurant.name }}</h3>
+  {% if restaurant.title %}
+    <h3>{{ restaurant.title }}</h3>
       <ul>
         {% if restaurant.description %}
           <li> <b>Description</b>: {{restaurant.description}} </li>
