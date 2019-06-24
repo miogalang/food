@@ -1,5 +1,5 @@
 ---
-title: Osaka
+title: Osaka/Kyoto
 place-id: osaka
 country: Japan
 image:
