@@ -10,12 +10,12 @@ github_username: miogalang
 exclude:
   - README.md
 
-collections:
-  places:
-    output: true
-    permalink: /:name
-  restaurants:
-    output: false
+#collections:
+#  places:
+#    output: true
+#    permalink: /:name
+#  restaurants:
+#    output: false
 
 defaults:
   - scope:
@@ -23,4 +23,4 @@ defaults:
     values:
       layout: place
 
-remote_theme: "mmistakes/jekyll-theme-basically-basic"      
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
