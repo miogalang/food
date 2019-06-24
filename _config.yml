@@ -24,10 +24,15 @@ collections:
    output: false
 
 defaults:
- - scope:
-     path: "_places"
-     type: places
-   values:
-     layout: place
+  - scope:
+      path: _places
+      type: places
+    values:
+      layout: place
+  - scope:
+      path: _restaurants
+      type: restaurant
+    values:
+      rank: 999
 
 remote_theme: "mmistakes/jekyll-theme-basically-basic"

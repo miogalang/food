@@ -10,4 +10,5 @@ what-to-order: # An array of the items to order
 location: # Google maps link of locations. e.g. https://goo.gl/maps/dqb2qzw6scK2
 notes: # Any notes. e.g. Lots of Branches, so search on google maps nearest you
 photos: # link to photos. e.g. null
+rank: # You can put a rank to make it go to the top. 1 is at the top
 ---

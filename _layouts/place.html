@@ -1,11 +1,14 @@
 ---
 layout: page
 ---
-{% assign restaurants = site.restaurants | where: "place-ids", contains page.place-id %}
+{% assign restaurants = site.restaurants | where: "place-ids", contains page.place-id | sort: "rank", "last" %}
 
 {% for restaurant in restaurants %}
   {% if restaurant.title %}
     <h3>{{ restaurant.title }}</h3>
+      {% if restaurant.rank == 1 %}
+      <h5>This is a top choice</h5>
+      {% endif %}
       <ul>
         {% if restaurant.description %}
           <li> <b>Description</b>: {{restaurant.description}} </li>
