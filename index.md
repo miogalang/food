@@ -6,6 +6,7 @@ sort_by: title
 sort_order: forward
 title: Places
 layout: collection
-permalink: /:name
 collection: places
 ---
+
+Hello world!
