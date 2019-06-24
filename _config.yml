@@ -1,8 +1,14 @@
 title: Mio's food picks
-author: Mio Galang
-email: mio@galang.co
-description: > # this means to ignore newlines until "baseurl:"
-  This is the best site ever, in the history of the world
+author:
+  name: Mio Galang
+
+url: http://food.miogalang.com
+logo: assets/images/logo.png
+github_username: miogalang
+email: miguelgalang@gmail.com
+
+description: >
+  This is the Mio Galang's list of places he likes to eat at 
 
 # social links
 github_username: miogalang
@@ -10,17 +16,18 @@ github_username: miogalang
 exclude:
   - README.md
 
-#collections:
-#  places:
-#    output: true
-#    permalink: /:name
-#  restaurants:
-#    output: false
+collections:
+ places:
+   output: true
+   permalink: /:name
+ restaurants:
+   output: false
 
 defaults:
-  - scope:
-      type: places
-    values:
-      layout: place
+ - scope:
+     path: "_places"
+     type: places
+   values:
+     layout: page
 
 remote_theme: "mmistakes/jekyll-theme-basically-basic"
