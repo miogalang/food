@@ -1,5 +1,5 @@
 ---
-title: Keunkiwajip
+title: Keunkiwajip (큰기와집)
 restaurant-id: keunkiwajip
 place-ids:
   - seoul

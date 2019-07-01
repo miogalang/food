@@ -1,5 +1,5 @@
 ---
-title: Bongchu Jjimdak
+title: Bongchu Jjimdak (봉추찜닭)
 restaurant-id: bongchu
 place-ids:
   - seoul
