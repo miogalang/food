@@ -13,6 +13,8 @@ description: >
 # social links
 github_username: miogalang
 
+favicon: true
+
 exclude:
   - README.md
 
