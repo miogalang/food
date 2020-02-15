@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-{% assign restaurants = site.restaurants | where_exp: "restaurant", "restaurant.place-ids contains page.place-id" | sort: "rank", "last" %}
+{% assign restaurants = site.restaurants | where_exp: "restaurant", "restaurant.place-ids contains page.place-id" | sort: "rank" %}
 
 {% for restaurant in restaurants %}
   {% if restaurant.title %}
@@ -23,7 +23,17 @@ layout: page
           </li>
         {% endif %}
         {% if restaurant.location %}
-          <li> <b>Location</b>: <a href={{restaurant.location}} target=_blank>{{restaurant.location}}</a> </li>
+          {% if restaurant.location.first %}
+            <li> <b>Location</b>:
+              <ul>
+                {% for loc in restaurant.location %}
+                  <li> <a href={{loc}} target=_blank>{{loc}}</a> </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+              <li> <b>Location</b>: <a href={{restaurant.location}} target=_blank>{{restaurant.location}}</a> </li>
+          {% endif %}
         {% endif %}
         {% if restaurant.notes %}
           <li> <b>Notes</b>: {{restaurant.notes}} </li>
