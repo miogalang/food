@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-{% assign types = "restaurant, coffee, drink" | split: "," %}
+{% assign types = "restaurant,coffee,drink" | split: "," %}
 {% for type in types %}
   {% assign restaurants = site.restaurants | where_exp: "restaurant", "restaurant.place-ids contains page.place-id" | where: "type", type | sort: "rank", 'last' %}
   {% if restaurants.size > 0 %}
