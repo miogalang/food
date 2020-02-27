@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Cafe Mary Grace
 restaurant-id: cafe-mary-grace 
 place-ids:

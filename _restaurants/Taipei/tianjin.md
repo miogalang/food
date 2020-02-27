@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Tianjin
 restaurant-id: tianjin
 place-ids:

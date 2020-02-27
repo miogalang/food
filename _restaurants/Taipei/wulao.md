@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Wulao (無老鍋)
 restaurant-id: wulao
 place-ids:

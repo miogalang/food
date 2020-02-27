@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Din Tai Fung 
 restaurant-id: din-tai-fung
 place-ids:

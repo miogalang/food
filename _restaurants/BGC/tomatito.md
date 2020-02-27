@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Tomatito
 restaurant-id: tomatito 
 place-ids:

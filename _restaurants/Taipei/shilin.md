@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Shilin Night Market
 restaurant-id: shilin
 place-ids:

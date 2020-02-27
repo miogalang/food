@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: JTs Manukan 
 restaurant-id: jts-manukan 
 place-ids:

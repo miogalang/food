@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Waraiya
 restaurant-id: waraiya
 place-ids:

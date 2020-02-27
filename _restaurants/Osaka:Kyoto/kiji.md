@@ -1,5 +1,6 @@
 ---
 # This is a restaurant entry, it will show on the Place's page
+type: restaurant
 title: Kiji
 restaurant-id: kiji
 place-ids:

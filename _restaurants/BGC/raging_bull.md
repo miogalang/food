@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Raging bull 
 restaurant-id: raging-bull 
 place-ids:

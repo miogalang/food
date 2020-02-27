@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Pancake House 
 restaurant-id: pancake_house
 place-ids:

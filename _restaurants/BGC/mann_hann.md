@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Mann Hann
 restaurant-id: mann-hann 
 place-ids:

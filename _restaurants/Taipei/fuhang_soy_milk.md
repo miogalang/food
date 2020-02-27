@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Fuhang Soy Milk (阜杭豆漿)
 restaurant-id: fuhang_soy_milk
 place-ids:

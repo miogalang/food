@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Livestock 
 restaurant-id: livestock
 place-ids:

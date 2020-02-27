@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Nabezo
 restaurant-id: nabezo
 place-ids:
