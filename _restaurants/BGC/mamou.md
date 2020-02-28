@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Mamou
 restaurant-id: mamou 
 place-ids:

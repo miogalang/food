@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Ramen Nagi
 restaurant-id: ramen-nagi 
 place-ids:

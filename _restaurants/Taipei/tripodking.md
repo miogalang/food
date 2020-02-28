@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Tripodking (鼎王)
 restaurant-id: tripodking
 place-ids:

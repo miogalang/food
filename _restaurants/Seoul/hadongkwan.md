@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Hadongkwan (하동관 | 하동관)
 restaurant-id: hadongkwan
 place-ids:

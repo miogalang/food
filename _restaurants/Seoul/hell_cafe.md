@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Hell Cafe
 restaurant-id: hell_cafe
 place-ids:

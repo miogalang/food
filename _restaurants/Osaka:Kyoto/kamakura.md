@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Kamakura
 restaurant-id: kamakura_ramen
 place-ids:

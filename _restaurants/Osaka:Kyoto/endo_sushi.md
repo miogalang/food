@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Endo Sushi
 restaurant-id: endo_sushi
 place-ids:

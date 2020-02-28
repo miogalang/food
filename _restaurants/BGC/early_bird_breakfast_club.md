@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Early bird breakfast club 
 restaurant-id: early-bird-breakfast-club 
 place-ids:

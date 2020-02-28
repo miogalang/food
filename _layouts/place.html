@@ -1,46 +1,52 @@
 ---
 layout: page
 ---
-{% assign restaurants = site.restaurants | where_exp: "restaurant", "restaurant.place-ids contains page.place-id" | sort: "rank", "last" %}
+{% assign types = "restaurant,coffee,drink" | split: "," %}
+{% for type in types %}
+  {% assign restaurants = site.restaurants | where_exp: "restaurant", "restaurant.place-ids contains page.place-id" | where: "type", type | sort: "rank", 'last' %}
+  {% if restaurants.size > 0 %}
+    <h2>{{ type | capitalize}}</h2>
+  {% endif %}
 
-{% for restaurant in restaurants %}
-  {% if restaurant.title %}
-    <h3>{{ restaurant.title }}</h3>
-      {% if restaurant.rank == 1 %}
-      <h5>This is a top choice</h5>
-      {% endif %}
-      <ul>
-        {% if restaurant.description %}
-          <li> <b>Description</b>: {{restaurant.description}} </li>
+  {% for restaurant in restaurants %}
+    {% if restaurant.title %}
+      <h3>{{ restaurant.title }}</h3>
+        {% if restaurant.rank == 1 %}
+        <h5>This is a top choice</h5>
         {% endif %}
-        {% if restaurant.what-to-order %}
-          <li> <b>What to order</b>:
-            <ul>
-              {% for order in restaurant.what-to-order %}
-                <li> {{ order }}
-              {% endfor %}
-            </ul>
-          </li>
-        {% endif %}
-        {% if restaurant.location %}
-          {% if restaurant.location.first %}
-            <li> <b>Location</b>:
+        <ul>
+          {% if restaurant.description %}
+            <li> <b>Description</b>: {{restaurant.description}} </li>
+          {% endif %}
+          {% if restaurant.what-to-order %}
+            <li> <b>What to order</b>:
               <ul>
-                {% for loc in restaurant.location %}
-                  <li> <a href={{loc}} target=_blank>{{loc}}</a> </li>
+                {% for order in restaurant.what-to-order %}
+                  <li> {{ order }}
                 {% endfor %}
               </ul>
             </li>
-          {% else %}
-              <li> <b>Location</b>: <a href={{restaurant.location}} target=_blank>{{restaurant.location}}</a> </li>
           {% endif %}
-        {% endif %}
-        {% if restaurant.notes %}
-          <li> <b>Notes</b>: {{restaurant.notes}} </li>
-        {% endif %}
-        {% if restaurant.photos %}
-          <li> <b>Photos</b>: <a href={{restaurant.photos}} target=_blank>{{restaurant.photos}}</a> </li>
-        {% endif %}
-      </ul>
-  {% endif %}
+          {% if restaurant.location %}
+            {% if restaurant.location.first %}
+              <li> <b>Location</b>:
+                <ul>
+                  {% for loc in restaurant.location %}
+                    <li> <a href={{loc}} target=_blank>{{loc}}</a> </li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+                <li> <b>Location</b>: <a href={{restaurant.location}} target=_blank>{{restaurant.location}}</a> </li>
+            {% endif %}
+          {% endif %}
+          {% if restaurant.notes %}
+            <li> <b>Notes</b>: {{restaurant.notes}} </li>
+          {% endif %}
+          {% if restaurant.photos %}
+            <li> <b>Photos</b>: <a href={{restaurant.photos}} target=_blank>{{restaurant.photos}}</a> </li>
+          {% endif %}
+        </ul>
+    {% endif %}
+  {% endfor %}
 {% endfor %}

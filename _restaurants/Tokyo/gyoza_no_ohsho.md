@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Gyoza-no Ohsho
 restaurant-id: gyoza_no_ohsho
 place-ids:

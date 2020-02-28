@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Va Bene Pasta Deli 
 restaurant-id: va-bene-pasta-deli
 place-ids:

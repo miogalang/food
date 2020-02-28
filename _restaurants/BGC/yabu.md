@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Yabu
 restaurant-id: yabu
 place-ids:

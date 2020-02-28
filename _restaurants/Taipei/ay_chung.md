@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Ay Chung
 restaurant-id: ay_chung
 place-ids:

@@ -1,4 +1,5 @@
 ---
+type: restaurant
 title: Las Flores 
 restaurant-id: las-flores 
 place-ids:
