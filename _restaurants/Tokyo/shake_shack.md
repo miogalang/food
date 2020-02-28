@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Shake Shack
 restaurant-id: shake_shack
 place-ids:

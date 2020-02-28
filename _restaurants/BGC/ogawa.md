@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Ogawa Traditional Japanese Restaurant
 restaurant-id: ogawa
 place-ids:

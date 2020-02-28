@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Tim Ho Wan
 restaurant-id: tim-ho-wan 
 place-ids:

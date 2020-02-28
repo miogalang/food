@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Wildflour
 restaurant-id: wildflour
 place-ids:

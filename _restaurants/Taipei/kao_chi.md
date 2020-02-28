@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Kao Chi (高記)
 restaurant-id: kao_chi
 place-ids:

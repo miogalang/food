@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Hotteok (호떡)
 restaurant-id: hotteok
 place-ids:

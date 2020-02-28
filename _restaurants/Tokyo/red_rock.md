@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Red Rock
 restaurant-id: red_rock
 place-ids:

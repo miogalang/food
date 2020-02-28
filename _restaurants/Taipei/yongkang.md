@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: YongKang Beef Noodles (永康牛肉麵)
 restaurant-id: yongkang
 place-ids:

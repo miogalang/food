@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Steakhouse Satou
 restaurant-id: steakhouse_satou
 place-ids:

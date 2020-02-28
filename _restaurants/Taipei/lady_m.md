@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Lady M
 restaurant-id: lady_m
 place-ids:

@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Kuri
 restaurant-id: kuri
 place-ids:

@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Zubuchon
 restaurant-id: zubuchon 
 place-ids:

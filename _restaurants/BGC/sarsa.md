@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Sarsa 
 restaurant-id: sarsa
 place-ids:

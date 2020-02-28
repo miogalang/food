@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Ichiran ramen
 restaurant-id: ichiran-ramen
 place-ids:

@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Yuktongryeong (육통령)
 restaurant-id: yuktongryeong
 place-ids:

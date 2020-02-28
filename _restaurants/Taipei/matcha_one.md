@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Matcha One
 restaurant-id: matcha_one
 place-ids:

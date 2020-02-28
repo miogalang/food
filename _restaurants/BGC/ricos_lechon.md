@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Rico's Lechon 
 restaurant-id: ricos-lechon 
 place-ids:
