@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Ningxia Night Market
 restaurant-id: ningxia
 place-ids:

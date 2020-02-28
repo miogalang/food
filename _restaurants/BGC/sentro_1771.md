@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Sentro 1771 
 restaurant-id: sentro-1771 
 place-ids:

@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: 8Cuts Burger & Blends
 restaurant-id: 8cuts
 place-ids:

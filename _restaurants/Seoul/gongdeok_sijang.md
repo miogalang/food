@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Gongdeok Sijang (공덕 전골목)
 restaurant-id: gongdeok_sijang
 place-ids:

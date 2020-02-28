@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Sushi Dai
 restaurant-id: sushi_dai
 place-ids:

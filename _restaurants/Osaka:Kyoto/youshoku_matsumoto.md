@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Youshoku Matsumoto
 restaurant-id: youshoku_matsumoto
 place-ids:

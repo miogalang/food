@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Seirinkan Pizza
 restaurant-id: seirinkan_pizza
 place-ids:

@@ -1,5 +1,7 @@
 ---
-type: restaurant
+type: 
+  - restaurant
+  - drink
 title: Tomatito
 restaurant-id: tomatito 
 place-ids:

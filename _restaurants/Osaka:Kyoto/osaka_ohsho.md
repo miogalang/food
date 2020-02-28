@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Osaka Ohsho
 restaurant-id: osaka_ohsho
 place-ids:

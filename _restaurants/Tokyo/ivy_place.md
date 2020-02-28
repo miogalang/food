@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Ivy Place
 restaurant-id: ivy_place
 place-ids:

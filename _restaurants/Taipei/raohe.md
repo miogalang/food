@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Raohe Night Market
 restaurant-id: raohe
 place-ids:

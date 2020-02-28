@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Butcher's Daughter (고깃집 딸)
 restaurant-id: butchers_daughter
 place-ids:

@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Sweet Ecstasy
 restaurant-id: sweet-ecstasy 
 place-ids:

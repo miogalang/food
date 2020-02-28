@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Mendokoro Ramen-ba
 restaurant-id: mendokoro-ramen-ba 
 place-ids:

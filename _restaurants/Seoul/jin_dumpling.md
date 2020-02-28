@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Jin Dumpling (진만두)
 restaurant-id: jin_dumpling
 place-ids:

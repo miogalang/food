@@ -1,5 +1,6 @@
 ---
-type: restaurant
+type: 
+  - restaurant
 title: Kakekomi Gyoza
 restaurant-id: kakekomi_gyoza
 place-ids:
