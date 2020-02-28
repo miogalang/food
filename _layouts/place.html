@@ -6,6 +6,7 @@ layout: page
   {% assign restaurants = site.restaurants | where_exp: "restaurant", "restaurant.place-ids contains page.place-id" | where_exp: "restaurant", "restaurant.type contains type" | sort: "rank", 'last' %}
   {% if restaurants.size > 0 %}
     <h2>{{ type | capitalize}}</h2>
+    <hr>
   {% endif %}
 
   {% for restaurant in restaurants %}
