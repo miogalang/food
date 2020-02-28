@@ -17,5 +17,6 @@ location:
   - https://goo.gl/maps/aZ91XQDeBDgeL3XW8
   - https://goo.gl/maps/Tyq275BY44MTuKhF9
 photos: https://photos.app.goo.gl/5UzoYPjgXec6ibMs6
+notes: One of the top 50 burgers in the world
 rank: 1
 ---
