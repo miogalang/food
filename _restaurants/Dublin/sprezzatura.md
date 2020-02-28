@@ -12,4 +12,5 @@ what-to-order:
   - Stracciatella (get it with the bread)
   - Duck Croquettes 
 location: https://goo.gl/maps/PRAGkuhQX8caL3Dt5
+photos: https://photos.app.goo.gl/H7DUfAUqaaHjfVyQ7
 ---

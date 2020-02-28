@@ -16,5 +16,6 @@ location:
   - https://goo.gl/maps/n45TpwkkfTXi7vTbA
   - https://goo.gl/maps/aZ91XQDeBDgeL3XW8
   - https://goo.gl/maps/Tyq275BY44MTuKhF9
+photos: https://photos.app.goo.gl/5UzoYPjgXec6ibMs6
 rank: 1
 ---
