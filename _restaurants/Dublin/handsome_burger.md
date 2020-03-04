@@ -10,6 +10,6 @@ what-to-order:
   - Handome burger
 location: https://goo.gl/maps/yPAPxABx2RJyfWMQ8
 photos: https://photos.app.goo.gl/SHvGKLRqwiqbG8uG7
-notes: One of the top 50 burgers in the world. top rated one in dublin
+notes: One of the top 50 burgers in the world. top rated one in Ireland but it's not in dublin
 rank: 1
 ---
